@@ -1,0 +1,7 @@
+.docker-ignore
+.git
+.gitignore
+docker-compose.yml
+Dockerfile
+README.md
+slack-bot

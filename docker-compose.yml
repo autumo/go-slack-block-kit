@@ -1,0 +1,13 @@
+version: '3.7'
+services:
+  bot:
+    build: .
+    ports:
+      - 3000:3000
+    environment:
+      AWS_ACCESS_KEY_ID:
+      AWS_SECRET_ACCESS_KEY:
+      AWS_SECRET_NAME: hoge/slack
+      BOT_ID: XXX
+      GITHUB_OWNER: autumo
+      JENKINS_HOST: jenkins.example.com
