@@ -4,3 +4,4 @@
   name = "go"
   enabled = true
   runtime_version = "1.12"
+  import_path = "github.com/autumo/go-slack-block-kit"
