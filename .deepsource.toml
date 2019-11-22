@@ -1,11 +1,9 @@
-{
-  "version": 1,
-  "analyzers": [
-      {
-          "name": "go",
-          "enabled": true,
-          "runtime_version": "1.12",
-          "import_path": "github.com/autumo/go-slack-block-kit"
-      }
-  ]
-}
+version = 1
+
+[[analyzers]]
+name = "go"
+enabled = true
+runtime_version = "1.12"
+
+  [[analyzers.meta]]
+  import_path = "github.com/autumo/go-slack-block-kit"
